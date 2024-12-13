@@ -1,0 +1,20 @@
+{
+  "name": "srvr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "b": "pnpm exec tsc -b",
+    "d": "node dist/server.js",
+    "f": "prettier --write server.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/ws": "^8.5.13",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
